@@ -1,0 +1,81 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #82b8f5;
+	color: #fdfdfd;
+}
+
+h1, h2, h3, h4, pre {
+	font-family: 'Roboto Mono', monospace;
+    text-align:center;
+}
+.profile-picture{
+    width:200px;
+    border-radius:50%;
+    box-shadow: 0 4px 6px 0 rgba(0, 1, 2, 0.75);
+    transition: all ease-in-out .2s;
+}
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.container > div {
+	margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    text-align: center; 
+}
+
+.i-am {
+    text-align: center;
+    text-decoration: none
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.image {
+    width:200px;
+    border-radius:30%;
+    padding: 4%;
+}
+
+.links-and-contact {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+form input[type="submit"] {
+	width: 250px;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+    background-color: rgb(197, 156, 244);
+    color: rgb(246, 246, 246);
+}
+
+.map{
+    text-align: center;
+}
